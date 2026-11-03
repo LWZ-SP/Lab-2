@@ -3,10 +3,10 @@ def display_main_menu():
 
 
 def get_user_input():
-    user_input = input()                  # read from the console
-    str_list = user_input.split(",")      # split into a list of strings
+    user_input = input()                  
+    str_list = user_input.split(",")      
     num_list = []
-    for s in str_list:                    # convert each string to a float
+    for s in str_list:                    
         num_list.append(float(s))
     return num_list
 
